@@ -1,0 +1,8 @@
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between
+}
