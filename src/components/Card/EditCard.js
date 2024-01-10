@@ -37,7 +37,7 @@ function EditCard() {
             setDeck(deckResponse);
         }
         fetchData();
-    }, []);
+    }, [cardId, deckId]);
 
     function handleChange({ target }) {
         setCard({

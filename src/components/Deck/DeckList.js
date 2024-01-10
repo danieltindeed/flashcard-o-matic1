@@ -13,7 +13,7 @@ function DeckList() {
             setDecks(deckResponse);
         }
         fetchData();
-    }, []);
+    }, [decks]);
 
     async function handleDelete(deck) {
         if (
